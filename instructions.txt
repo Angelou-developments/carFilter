@@ -1,0 +1,6 @@
+
+use : - 'winpty docker-compose exec node sh' to enter into your virtual machine and begin developing
+
+use : - 'yarn dev' to run compose in dev mode whilst working on the widget
+
+use : - ' yarn prod' to compile assets before any push live

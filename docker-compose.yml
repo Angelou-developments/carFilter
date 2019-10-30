@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  node:
+    image: node:current-alpine
+    working_dir: /var/www/vhosts/app
+    volumes:
+      - .:/var/www/vhosts/app
+    ports:
+      - '3000:3000'
+    tty: true
